@@ -1,0 +1,17 @@
+http:
+    host: localhost
+    port: 8080
+
+ssl:
+    key: /path/to/privkey.pem
+    cert: /path/to/fullchain.pem
+    ca: /path/to/chain.pem
+
+session:
+    secret: dummy
+    expiryInSeconds: 60
+
+facebook:
+    clientID: 111222
+    clientSecret: 111222333444
+    callbackURL: https://example.com/auth/facebook/callback
